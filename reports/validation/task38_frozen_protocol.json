@@ -1,0 +1,63 @@
+{
+  "end": 202212,
+  "feature_spec_sha256": "f3f5b918753ab0de6267a39c9d5c6d2d9485bcade1f14f5b92e3cb1c35d9f311",
+  "groups": [
+    "all",
+    "year",
+    "start_state",
+    "year_by_start_state"
+  ],
+  "log_epsilon": 1e-300,
+  "metrics": [
+    "multiclass_logloss",
+    "multiclass_brier",
+    "first90_OE",
+    "S5_OE",
+    "S6_OE",
+    "S7_OE"
+  ],
+  "model_artifact_sha256": {
+    "nomacro": {
+      "S0.json": "38374e31448955d1b0f5b9f058a0c43471daf8d9289c8f9c5c9ce6cbb969d97d",
+      "S0.txt": "e72f9a64634ab1f1413432a3e55be7a617f3562501dbce287845ebcb04387e06",
+      "S1.json": "de80bae020f8505ae43e0617717c32ede05bb3d48d2a37ba250306a2d3f29855",
+      "S1.txt": "f7f4857882d69bbf5d5275b271c3e776c1fee320dd8128e1ee546f28b1e3de1f",
+      "S2.json": "6296a213d66c24d62f66887e285b0f0165171339e9fafd19f30a44c9a1308b24",
+      "S2.txt": "d0f496ad705c0d5114c71fd7f6bfb9c879a5c5761d9a3dc33b11dc729df8bbc0",
+      "S3.json": "cb44e4747debb9c7d4a07e240294692327169bc41931f3368e255f8d83cb5b9b",
+      "S3.txt": "cd39edad38fd50053712be1fa8168d184dd6c2d638475de15ca8c854dde62267",
+      "S4.json": "47fd8e7ce804ce55dfda9f06fecd3dbd631358e7ef4327ba4eec10a3a05c989b",
+      "S4.txt": "e4df623a202ddc4bf29405c9e85aa3f84eb50e7d3fc159e157327c4025e5f5e3",
+      "manifest.json": "316b85bab74d7c28f27722ad1434c93710e7c729e3666d02c23127a449378546",
+      "validation_diagnostics.json": "5bbee4f40b3292fdf6304db2044bf253620695fba874c3e6ca254fe69565ae4a"
+    },
+    "withmacro": {
+      "S0.json": "4d77bd9dd2815f6942ef0bfa2546a8e21530c5deaa32baf7d3e03d61904a011a",
+      "S0.txt": "bed7cd99b246e4004b38454f30a83601b4357b30dde24f909cef1c7efb8a43cb",
+      "S1.json": "a1178eb2be67e12ff94a69c9b1b0b70869f745d66a643054dc439f24a9569753",
+      "S1.txt": "b9c0ca05472c6265cb1bc8aa82002cffe6c40ca8b42cdb1976ebae2da30e400d",
+      "S2.json": "7784692aae8d1f897144920b3f37ccdc8a89434577bfa64c7967047d1f126dfc",
+      "S2.txt": "9d3b1bb925a2931c376558e9b8688c138f1624b51e4d52ab1dc7ec5b38008d38",
+      "S3.json": "f0e20d8340bb5127759c6a0a5d2147a016694d80cb4d0b1455903e3f847fe00a",
+      "S3.txt": "28d69007a784a3f4c8d4829e7782be9c302f2c2fdc4392e4b2587ebe26305c5a",
+      "S4.json": "db0396adcbb5f2a98d34cb7a41e3f96d39e26d446562f19a476852db66d7351e",
+      "S4.txt": "1fabdedb8d8aab188597dcd0a77302390fd8c40e81aef3c4ebd4c761dcc5ff24",
+      "manifest.json": "9926ca16f6094a34a97875631e2473347452391e8e32fd3af9f23e052e939a07",
+      "validation_diagnostics.json": "5bbee4f40b3292fdf6304db2044bf253620695fba874c3e6ca254fe69565ae4a"
+    }
+  },
+  "models": [
+    "nomacro",
+    "withmacro"
+  ],
+  "oot_model_selection": false,
+  "recalibration": false,
+  "retraining": false,
+  "script_sha256": {
+    "task30": "593cda59018e6fe7ed8ef959708733d20d7f639489097e59b707a9a3c879cec1",
+    "task31": "1f3b53df99283f83a0d02eb2e980f8a2dbbc91bcb53369c841787ec23aea6c35"
+  },
+  "split_basis": "observation_month",
+  "start": 202101,
+  "task": "Task38 Frozen Independent Monthly OOT"
+}

@@ -122,7 +122,7 @@ relative to the reference scenario.
    sample event count (O/E = 0.7137).
 2. The 2018 data were used for LightGBM early stopping and
    cannot be presented as fully independent testing.
-3. The reserved 2021-2023 OOT evaluation has not been reported.
+3. Independent monthly OOT validation for 2021–2022 is reported separately in [Task 38](task38_oot_validation.md); the 12-month simulator remains development-assessed.
 4. The 12M path simulator fixes future macroeconomic inputs
    and uses simplified loan-state and balance dynamics.
 5. As-of UPB is a proxy, not actual default-time EAD.

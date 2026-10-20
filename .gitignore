@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+data/
+outputs/
+checkpoints/
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.npz
+*.pkl
+*.joblib
+
+# Local development files
+.vscode/
+*.ipynb
+github_release/

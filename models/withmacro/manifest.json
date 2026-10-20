@@ -1,0 +1,39 @@
+{
+  "implementation": "reviewed_v2_full_label_stop_no_probability_floor",
+  "macro": "on",
+  "nums": [
+    "orig_credit_score",
+    "orig_ltv",
+    "orig_dti",
+    "log_orig_upb",
+    "orig_term_months",
+    "loan_age_reported_t",
+    "months_remaining_reported_t",
+    "log_upb_t",
+    "months_90plus_observed_through_t",
+    "months_delinquent_observed_through_t",
+    "hpi_yoy_pct",
+    "unemployment_pct",
+    "unemployment_change_3m_pp",
+    "mortgage30_pct",
+    "refinance_incentive_pp"
+  ],
+  "cats": [
+    "prior_observed_state",
+    "ever_90plus_through_t",
+    "orig_property_state",
+    "orig_occupancy",
+    "orig_loan_purpose",
+    "modification_flag_t"
+  ],
+  "old_spec_sha256": "f3f5b918753ab0de6267a39c9d5c6d2d9485bcade1f14f5b92e3cb1c35d9f311",
+  "rounds": 180,
+  "seed": 3106,
+  "training_rows": 24023978,
+  "stop_year": 2018,
+  "evaluation_years": [
+    2018,
+    2019,
+    2020
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "state": 4,
+  "type": "lgbm",
+  "classes": [
+    4,
+    6,
+    7
+  ],
+  "train_rows": 47865,
+  "train_counts": {
+    "4": 41428,
+    "6": 6389,
+    "7": 48
+  },
+  "stop2018_unseen_class_rows": 0,
+  "best_iteration": 43
+}
